@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+body ul {
+	list-style-type:none;
+}
+
+body ul li {
+	margin:50px;
+	margin-left:500px;
+	width:300px;
+}
+
+body li:nth-child(1) input{
+	margin-left:50px;
+}
+
+body li:nth-child(2) input{
+	margin-left:20px;
+}

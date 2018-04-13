@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="wanTest.initialize.mapper.selectArticleInfoMapper">
+	<select id="selectArticleInfo" parameterType="java.lang.String" resultType="wanTest.initialize.dto.Article">
+		SELECT
+			ARTICLE_ID AS articleId,
+			TITLE AS title,
+			CONTENT AS content
+		FROM ARTICLE
+	</select>
+	
+	<select id="selectArticleDetail" parameterType="java.lang.String" resultType="wanTest.initialize.dto.Article">
+		SELECT 
+			ARTICLE_ID AS articleId,
+			TITLE AS title,
+			CONTENT AS content
+		 FROM ARTICLE WHERE ARTICLE_ID = #{id}
+	</select>
+	
+	<update id="updateArticleInfo" parameterType="java.lang.String">
+		UPDATE ARTICLE 
+		SET TITLE = #{articleTitle},
+			CONTENT = #{articleContent}
+		WHERE ARTICLE_ID = #{id}
+	</update>
+	
+</mapper>
