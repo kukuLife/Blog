@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{363DAAF8-64CF-435F-8197-8B32C2DEE6DA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlogFun/BlogListAdapter.cs">
+    <Files>
+      <File FileName="BlogFun/Resources/values/Strings.xml" Line="4" Column="19" />
+      <File FileName="BlogFun/BlogListActivity.cs" Line="57" Column="37" />
+      <File FileName="BlogFun/BlogListAdapter.cs" Line="71" Column="18" />
+      <File FileName="BlogFun/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="BlogFun/Resources/AboutResources.txt" Line="1" Column="1" />
+      <File FileName="BlogFun/LoginActivity.cs" Line="29" Column="43" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.2.0-16/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1162" Column="2" />
+      <File FileName="BlogFun/BlogDetailActivity.cs" Line="35" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BlogFun AndroidDesignerPreferredDevice="Galaxy Nexus" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+</Properties>

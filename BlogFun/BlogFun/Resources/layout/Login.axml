@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="10px"
+        android:minHeight="10px"
+        android:layout_width="match_parent"
+        android:layout_height="2.0dp"
+        android:id="@+id/linearLayout1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="userName"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/userNameLabel"
+            android:layout_width="150dp"
+            android:layout_height="60dp" />
+        <EditText
+            android:id="@+id/userNameText"
+            android:layout_width="150dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:text="passWord"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/passWordLabel"
+            android:layout_width="150dp"
+            android:layout_height="60dp" />
+        <EditText
+            android:id="@+id/passWordText"
+            android:layout_width="150dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <Button
+        android:text="login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/LoginButton"
+        android:layout_marginTop="60dp" />
+</LinearLayout>

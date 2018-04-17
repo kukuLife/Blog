@@ -1,0 +1,1 @@
+<TableLayout android:minWidth="50px" android:minHeight="50px" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/BlogList" xmlns:android="http://schemas.android.com/apk/res/android"><ListView android:minWidth="50px" android:minHeight="50px" android:id="@android:id/list" /></TableLayout>
